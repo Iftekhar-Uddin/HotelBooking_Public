@@ -1,0 +1,147 @@
+.reserve{
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rCircle{
+    background-color: #dbdbdb;
+    padding: 20px;
+    position: relative;
+    max-height: 68%;
+    width: 50%;
+}
+
+.forScroll{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.noUser{
+    background-color: slateblue;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.noUser>h2{
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.linkk{
+    text-decoration:none;
+}
+
+.noUbutton{
+    background: #000;
+    color: white;
+    font-size: 16px;
+    padding: 6px 40px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.rCircle>span{
+    font-size: 20px;
+}
+
+.rClose{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 22px;
+    color: red;
+}
+
+.rItem{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.rItemInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rTitle{
+    font-weight: 500;
+    color:slateblue;
+    text-decoration: underline;
+}
+
+.rDesc{
+    font-weight: 400;
+    font-size: 16px;
+    color:rgb(255, 46, 46);
+}
+
+.rMax{
+    font-size: 14px;
+    color:rgb(73, 73, 73);
+}
+
+.rPrice{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rSelectedRooms{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 8px;
+    color: slateblue;
+}
+
+.room{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.rButton{
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .reserve{
+        padding: 0px 5px;
+    
+    }
+
+    .forScroll{
+        height: 380px;
+        overflow-y: scroll;
+    }
+
+    .rCircle{
+        width: 100%;
+    }
+
+    .rClose{
+        font-size: 15px;
+    }
+}

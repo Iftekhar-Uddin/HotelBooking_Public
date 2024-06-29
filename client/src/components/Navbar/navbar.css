@@ -1,0 +1,56 @@
+.navbar{
+    height: 50px;
+    background-color: slateblue;
+    display:flex;
+    justify-content:center;
+}
+
+.navContainer{
+    width: 100%;
+    margin:10px;
+    max-width: 1024px;
+    background-color:slateblue;
+    color:rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 500;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+/* .titleBtn{
+    border:none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:rgb(199, 149, 10);
+    background-color:rgb(255, 255, 255);
+} */
+
+.navbutton{
+    margin-left: 10px;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor:pointer;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .navbutton{
+        margin-left: 6px;
+        padding: 4px 5px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    
+}

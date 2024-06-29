@@ -1,0 +1,239 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+    background-image: url("https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+/* .loginWrapper{
+    height: 750px;
+    margin-top: 350px;
+} */
+
+/* .logintop{
+    text-align: center;
+}
+
+.loginLogo{
+    font-size: 40px;
+    font-weight: 800;
+    color:#ff9900;
+}
+
+.loginDesc{
+    font-size: 18px;
+    color:#000000;
+} */
+
+
+
+.loginbottom{
+    position:relative;
+    height: 400px;
+    width: 400px;
+    padding: 0px 25px;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox{
+    width: 100%;
+    padding: 35px;
+}
+
+
+.input-box{
+    position:relative;
+    width: 100%;
+    height: 55px;
+    border-bottom: 2px solid rgb(156, 156, 156);
+    margin: 25px 0;
+
+}
+
+.lInput{
+    height: 100%;
+    width: 100%;
+    /* margin-bottom: 17px; */
+    height: 34px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.input-box>span{
+    position: absolute;
+    top: 26px;
+    right: 15px;
+    font-size:20px;
+}
+
+.labelName{
+    transform: translateY(50%);
+    pointer-events: none;
+    font-weight:500;
+}
+
+.remember-forgot{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.rem{
+    display: flex;
+    gap: 3px;
+}
+
+.lButton{
+    padding: 8px 60px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.dontacc{
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linkkkkkk{
+    text-decoration: none;
+}
+/* .showPass{
+    display: flex;
+    justify-content: flex-end;
+    color:#9b9393;
+    cursor:pointer;
+    position:absolute;
+    width: 45px;
+    bottom: 88px;
+    right: 30px;
+} */
+
+
+@media screen and (max-width: 600px){
+    /* .loginLogo{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .loginDesc{
+        font-size: 20px;
+        color:#000000;
+    } */
+
+    .loginbottom{
+        position:relative;
+        height: 400px;
+        width: auto;
+        padding: 0px 15px;
+        border: 2px solid rgb(167, 167, 167);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .loginBox{
+        width: 100%;
+        padding: 10px;
+    }
+    
+    
+    .input-box{
+        position:relative;
+        width: 100%;
+        height: 50px;
+        border-bottom: 2px solid rgb(156, 156, 156);
+        margin: 25px 0;
+    
+    }
+    
+    .lInput{
+        height: 100%;
+        width: 100%;
+        /* margin-bottom: 17px; */
+        height: 28px;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 15px;
+        padding-left: 5px;
+    }
+    
+    .input-box>span{
+        position: absolute;
+        top: 26px;
+        right: 15px;
+        font-size:20px;
+    }
+    
+    .labelName{
+        transform: translateY(50%);
+        pointer-events: none;
+        font-weight:500;
+    }
+    
+    .remember-forgot{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+    
+    .lButton{
+        padding: 6px 45px;
+        display: block;
+        margin: auto;
+        border-radius: 8px;
+        border: none;
+        color: rgb(255, 255, 255);
+        background-color: #000000;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    
+    .dontacc{
+        padding-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* .showPass{
+        bottom: 74px;
+        right: 25px;
+    }
+
+    .loginBox{
+        height: 210px;
+        width: 270px;
+        border: 1px solid rgb(255, 164, 26);
+        border-radius: 7px;
+    } */
+}

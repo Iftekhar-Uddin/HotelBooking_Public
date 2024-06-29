@@ -1,0 +1,29 @@
+
+.homeContainer{
+    margin-top: 50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+}
+.homeTitle{
+    /* width: auto; */
+    display: flex;
+    padding-top:10px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .homeContainer{
+        margin-top: 30px;
+        gap: 10px;
+        padding: 0px 2px;
+    }
+    .homeTitle{
+        /* width: auto; */
+        padding-top: 5px;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+}
